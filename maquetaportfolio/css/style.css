@@ -1,0 +1,267 @@
+body{
+	font-family: 'Open Sans', sans-serif; 
+}
+
+.navegador {
+	background-color:#00334d;
+	min-height: 70px;
+}
+
+.contenedor{
+	margin: 0 auto;
+	max-width: 1000px;
+	text-align: center;
+}
+
+.navcontenedor {
+	padding-top	: 25px;
+}
+
+a {
+	color: white;
+	text-decoration: none;
+}
+
+.footer {
+	background-color:#004466; 
+}
+
+header, .about{
+	background-color:#00e6b8; 
+}
+
+h5{ 
+	float: left;
+    text-transform: uppercase;
+    color: white;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+ul{
+	float: right;
+}
+
+li{
+	display: inline-block;
+	text-transform: uppercase;
+	color: white;
+	font-weight: 700; 
+	font-size: 12px;
+	padding-left: 10px;
+}
+
+.me{
+    padding-top: 10%;
+}
+
+h1{
+	color: white;
+    text-transform: uppercase;
+    font-size: 50px;
+    padding: 2%;
+}
+
+.linea {
+	width: 75px;
+    background: white;
+    height: 3px;
+    display: inline-block;
+    margin-bottom: 6px
+}
+
+span {
+	color: white;
+    font-size: 25px;
+}
+
+h3{
+	color: white;
+    padding-bottom: 5%;
+    padding-top: 2%;
+    font-weight: 400;
+} 
+
+.lineanegra{
+	background: black;
+}
+
+.spannegro{
+	color: black;
+}
+
+h2{
+	font-size: 30px;
+    text-transform: uppercase;
+    padding-top: 5%;
+}
+
+.portfolio{
+	display: inline-block;
+	padding-bottom: 5%;
+}
+
+.divimagen{
+	width: 30%;
+	display: inline-block;
+	margin: 1%;
+}
+
+
+
+.divimagen img {
+	max-width: 100%;
+}
+
+.about h2 {
+	color: white;
+}
+
+.about p {
+	color: white;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.parrafos {
+	max-width: 100%;
+}
+
+.parrafo{
+    width: 30%;
+    display: inline-block;
+    text-align: left;
+    width: 30%;
+    display: inline-block;
+    text-align: left;
+    margin: 10px;
+    padding-bottom: 5%;
+    font-size: 15px;	
+}
+
+.parrafo p{
+	line-height: 22px;
+}
+
+.formulario{
+	max-width: 100%;
+	padding-bottom: 5%;
+}
+
+input, textarea{
+	width: 500px;
+    padding: 10px;
+    margin: 2px;
+    font-family: 'Open Sans', sans-serif;
+    resize: none;
+}
+
+.boton{
+	background-color: #00e6b8;
+    color: white;
+    border: none;
+    width: 100px;
+    border-radius: 50px;
+}
+
+
+footer{
+	text-align: center;
+	color: white;
+}
+
+.footercontenedor {
+	box-sizing: border-box;
+	padding: 5%;
+}
+
+.footercontenedor h4{
+	box-sizing: border-box;
+    text-transform: uppercase;
+    padding-bottom: 8%;
+}
+
+.location{
+	float: left;
+	display: inline-block;
+}
+
+.location h4 {
+	padding-bottom: 20%;
+}
+
+.around{
+	display: inline-block;
+	position: relative;
+    right: 10%;
+    box-sizing: border-box;
+    width: 300px;
+}
+
+.iconocontenedor {
+	display: inline-block;
+    border: 2px solid white;
+    border-radius: 50%;
+    margin: 2%;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 1.6;
+}
+
+.copy {
+	padding: 30px;
+	background-color: #00334d;
+}
+
+footer {
+	background-color: #004466;
+}
+
+@media screen and (max-width: 675px) {
+	nav {
+		text-align: left;
+	}
+	ul, h5 {
+		float: none;
+	}
+	li {
+		padding: 25px 0;
+	}
+	.divimagen {
+		width: 90%;
+	}
+	.divimagen img {
+		margin: 0 auto;
+	}
+
+	.parrafo {
+		display: block;
+		width: 90%;
+	}
+
+	.footercontenedor {
+		padding: 0;
+	}
+	.location {
+		display: block;
+    	padding: 40px;
+    	float: none;
+    	display: block;
+	}
+	.location h4, .around h4 {
+		padding: 20px;
+	}
+
+	.around {
+		display: block;
+    	margin: 0 auto;
+    	right: 0;
+	}
+	.iconos {
+		padding-bottom: 40px;
+	}
+	input,textarea {
+		width: 90%;
+	}
+
+}
