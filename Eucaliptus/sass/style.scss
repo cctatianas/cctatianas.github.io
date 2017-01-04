@@ -1,0 +1,222 @@
+@import "reset";
+@import "variables";
+@import "https://fonts.googleapis.com/css?family=Crimson+Text|Lemonada:400,700";
+@import "https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css";
+
+body{
+	font-family: $text;
+	color: $lgray;
+	font-size: 1.2em;
+}
+ 
+ h1,h2{
+	font-family: $logo;
+	padding: 5px;
+	}
+	h1{
+		font-size: 1.5em;
+		color: $lgreen;
+	}
+	h2{
+		font-size: 1.2em;
+		color: $mblue;
+ }
+
+h3{
+	font-size: 1.2em;
+	color: $mblue;
+	font-family: $logo;
+	padding: 10px;
+}
+
+p{
+	font-size: 1.2em;
+}
+
+.navbar-default{
+ 	background-color: white;
+ }
+
+ .navbar-default .navbar-nav>li>a {
+    color: $marine;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+    color: white;
+    background-color: $mblue;
+}
+
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+    color: $lgreen;
+    background-color: transparent;
+}
+
+.navbar-default .navbar-collapse{
+	margin: 20px;
+}
+
+ .navbar{
+ 	min-height: 88px;
+    margin-bottom: 20px;
+    border: 1px solid transparent;
+ }
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: $ocean;
+}
+
+.main{
+	margin-bottom: 20px;
+}
+
+.ubicacion{
+	p{
+		padding: 20px;
+	}
+	.ubicaciones{
+		padding:20px;
+		color: white;
+		span{
+			font-size: 2em;
+			padding-top: 20px;
+		}
+		.ubi1, .ubi3{
+			background-color: $marine;
+		}
+		.ubi2, .ubi4{
+			background-color: $ocean;
+		}
+	}
+	h3{
+		padding-top: 50px;
+	}
+}
+
+.complejo{
+	h3{
+		padding-bottom: 50px;
+	}
+	p{
+		padding: 20px;
+	}
+	img{
+		width: 60%;
+	}
+	.comunes{
+		p{
+			color: $ocean;
+		}
+	} 
+	.compartidos{
+		padding:20px;
+		span{
+			font-size: 2em;
+			padding-top: 20px;
+			padding-bottom: 15px;
+		}
+		.com1, .com3{
+			color: $marine;
+		}
+		.com2, .com4{
+			color: $ocean;
+		}
+		span:hover{
+			color: $lgreen;
+		}
+	}
+	h3{
+	padding-top: 50px;
+	}
+}
+
+.comodidades{
+	h3{
+		padding-top: 50px;
+		color: $lgreen;
+	}
+	p{
+		padding: 20px;
+	}
+	.comodos{
+		padding: 20px;
+		span{
+			font-size: 1em;
+			padding-top: 20px;
+			padding-bottom: 15px;
+		}
+		.tri1, .tri3, .tri5{
+			color: $lgreen;
+		}
+		.tri2, .tri4, .tri6{
+			color: $mblue;
+		}
+	}
+}
+
+.main{
+	p{
+		font-size: 1.5em;
+		padding-top: 225px;
+		padding-bottom: 225px;
+		padding-left: 50px;
+		line-height: 1.3em;
+		mark{
+			background: $mblue;
+		}
+		mark:hover{
+			background: $lgreen;
+		}
+	}
+	background: url("../images/pexels-photo.jpg") no-repeat center;
+	background-size: cover;
+    font-size: 1em;
+    color: white;
+}
+
+.contacto{
+	h3{
+		color: $lgreen;
+		padding-top: 50px;
+	}
+	p{
+		padding-bottom: 50px;
+	}
+	form{
+		font-size: 1.2em;
+		color:$mblue;
+		button{
+			background: $mblue;
+			color: white;
+			font-size: 0.8em;
+			margin-top: 10px;
+		}
+	}
+	.sand{
+	background:  url("../images/sand.jpg") no-repeat center;
+	p{
+		font-size: 1.2em;
+		line-height: 0.5em;
+		padding-top: 150px;
+		padding-bottom: 150px;
+		}
+	mark{
+		background: lightsalmon;
+	}
+	mark:hover{
+		background: $lgreen;
+	}
+}
+}
+
+
+footer{
+	color: white;
+	font-family: $text;
+	font-size:1em;
+	background: $lgreen;
+	padding:20px;
+	margin-top: 20px;
+}
+
+
+

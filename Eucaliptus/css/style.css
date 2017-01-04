@@ -1,0 +1,207 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+@import "https://fonts.googleapis.com/css?family=Crimson+Text|Lemonada:400,700";
+@import "https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css";
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+body {
+  font-family: "Crimson Text", serif;
+  color: #3D7068;
+  font-size: 1.2em; }
+
+h1, h2 {
+  font-family: "Lemonada", cursive;
+  padding: 5px; }
+
+h1 {
+  font-size: 1.5em;
+  color: #BDC667; }
+
+h2 {
+  font-size: 1.2em;
+  color: #15B097; }
+
+h3 {
+  font-size: 1.2em;
+  color: #15B097;
+  font-family: "Lemonada", cursive;
+  padding: 10px; }
+
+p {
+  font-size: 1.2em; }
+
+.navbar-default {
+  background-color: white; }
+
+.navbar-default .navbar-nav > li > a {
+  color: #00bfa5; }
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover {
+  color: white;
+  background-color: #15B097; }
+
+.navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a:hover {
+  color: #BDC667;
+  background-color: transparent; }
+
+.navbar-default .navbar-collapse {
+  margin: 20px; }
+
+.navbar {
+  min-height: 88px;
+  margin-bottom: 20px;
+  border: 1px solid transparent; }
+
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #009688; }
+
+.main {
+  margin-bottom: 20px; }
+
+.ubicacion p {
+  padding: 20px; }
+.ubicacion .ubicaciones {
+  padding: 20px;
+  color: white; }
+  .ubicacion .ubicaciones span {
+    font-size: 2em;
+    padding-top: 20px; }
+  .ubicacion .ubicaciones .ubi1, .ubicacion .ubicaciones .ubi3 {
+    background-color: #00bfa5; }
+  .ubicacion .ubicaciones .ubi2, .ubicacion .ubicaciones .ubi4 {
+    background-color: #009688; }
+.ubicacion h3 {
+  padding-top: 50px; }
+
+.complejo h3 {
+  padding-bottom: 50px; }
+.complejo p {
+  padding: 20px; }
+.complejo img {
+  width: 60%; }
+.complejo .comunes p {
+  color: #009688; }
+.complejo .compartidos {
+  padding: 20px; }
+  .complejo .compartidos span {
+    font-size: 2em;
+    padding-top: 20px;
+    padding-bottom: 15px; }
+  .complejo .compartidos .com1, .complejo .compartidos .com3 {
+    color: #00bfa5; }
+  .complejo .compartidos .com2, .complejo .compartidos .com4 {
+    color: #009688; }
+  .complejo .compartidos span:hover {
+    color: #BDC667; }
+.complejo h3 {
+  padding-top: 50px; }
+
+.comodidades h3 {
+  padding-top: 50px;
+  color: #BDC667; }
+.comodidades p {
+  padding: 20px; }
+.comodidades .comodos {
+  padding: 20px; }
+  .comodidades .comodos span {
+    font-size: 1em;
+    padding-top: 20px;
+    padding-bottom: 15px; }
+  .comodidades .comodos .tri1, .comodidades .comodos .tri3, .comodidades .comodos .tri5 {
+    color: #BDC667; }
+  .comodidades .comodos .tri2, .comodidades .comodos .tri4, .comodidades .comodos .tri6 {
+    color: #15B097; }
+
+.main {
+  background: url("../images/pexels-photo.jpg") no-repeat center;
+  background-size: cover;
+  font-size: 1em;
+  color: white; }
+  .main p {
+    font-size: 1.5em;
+    padding-top: 225px;
+    padding-bottom: 225px;
+    padding-left: 50px;
+    line-height: 1.3em; }
+    .main p mark {
+      background: #15B097; }
+    .main p mark:hover {
+      background: #BDC667; }
+
+.contacto h3 {
+  color: #BDC667;
+  padding-top: 50px; }
+.contacto p {
+  padding-bottom: 50px; }
+.contacto form {
+  font-size: 1.2em;
+  color: #15B097; }
+  .contacto form button {
+    background: #15B097;
+    color: white;
+    font-size: 0.8em;
+    margin-top: 10px; }
+.contacto .sand {
+  background: url("../images/sand.jpg") no-repeat center; }
+  .contacto .sand p {
+    font-size: 1.2em;
+    line-height: 0.5em;
+    padding-top: 150px;
+    padding-bottom: 150px; }
+  .contacto .sand mark {
+    background: lightsalmon; }
+  .contacto .sand mark:hover {
+    background: #BDC667; }
+
+footer {
+  color: white;
+  font-family: "Crimson Text", serif;
+  font-size: 1em;
+  background: #BDC667;
+  padding: 20px;
+  margin-top: 20px; }
+
+/*# sourceMappingURL=style.css.map */
